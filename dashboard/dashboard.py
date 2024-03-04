@@ -6,7 +6,7 @@ import seaborn as sns
 sns.set(style='dark')
 
 # Mengambil data
-all_df = pd.read_csv('./all_df.csv')
+all_df = pd.read_csv("./all_df.csv")
 
 # mengkonversi 'order_purchase_timestamp' ke datetime
 all_df['order_purchase_timestamp'] = pd.to_datetime(all_df['order_purchase_timestamp'])
